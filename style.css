@@ -75,10 +75,14 @@ nav .container {
 .logo {
     font-family: 'Sohne', sans-serif;
     font-size: 1.3rem;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 8px;
     color: var(--white);
     text-decoration: none;
+}
+
+.logo-light {
+    font-weight: 300;
 }
 
 .nav-links {
@@ -124,6 +128,10 @@ nav .container {
     margin-bottom: 3rem;
     color: var(--white);
     text-transform: uppercase;
+}
+
+.hero h1 .light {
+    font-weight: 300;
 }
 
 .hero p {
@@ -194,7 +202,7 @@ section {
 }
 
 .card:hover {
-    border-color: var(--medium-gray);
+    border-color: var(--red);
 }
 
 .card h3 {
@@ -236,7 +244,7 @@ section {
 }
 
 .project-card:hover {
-    border-color: var(--medium-gray);
+    border-color: var(--red);
 }
 
 .project-header {
@@ -258,10 +266,10 @@ section {
 .project-category {
     font-size: 0.6rem;
     letter-spacing: 4px;
-    color: var(--silver);
+    color: var(--red);
     text-transform: uppercase;
     font-weight: 400;
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-body {
@@ -314,7 +322,7 @@ section {
 }
 
 .news-article:hover {
-    border-color: var(--medium-gray);
+    border-color: var(--red);
 }
 
 .news-date {
@@ -351,14 +359,14 @@ section {
     display: inline-block;
     font-size: 0.6rem;
     letter-spacing: 4px;
-    color: var(--silver);
+    color: var(--red);
     background-color: transparent;
-    border: 1px solid var(--dark-gray);
+    border: 1px solid var(--red);
     padding: 0.5rem 1rem;
     text-transform: uppercase;
     margin-top: 1.5rem;
-    font-weight: 300;
-    opacity: 0.5;
+    font-weight: 400;
+    opacity: 0.6;
 }
 
 /* Footer */
@@ -379,10 +387,14 @@ footer {
 .footer-logo {
     font-family: 'Sohne', sans-serif;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 12px;
     color: var(--white);
     margin-bottom: 2rem;
+}
+
+.footer-logo .light {
+    font-weight: 300;
 }
 
 .footer-text {
