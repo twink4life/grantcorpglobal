@@ -1,5 +1,12 @@
 @font-face {
     font-family: 'Sohne';
+    src: url('fonts/TestSohne-Extraleicht.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sohne';
     src: url('fonts/TestSohne-Leicht.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
@@ -82,7 +89,7 @@ nav .container {
 }
 
 .logo-light {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .nav-links {
@@ -131,7 +138,7 @@ nav .container {
 }
 
 .hero h1 .light {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .hero p {
@@ -394,7 +401,7 @@ footer {
 }
 
 .footer-logo .light {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .footer-text {
