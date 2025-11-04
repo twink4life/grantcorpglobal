@@ -14,6 +14,7 @@
     --silver: #999999;
     --cream: #cccccc;
     --white: #ffffff;
+    --red: #8B0000;
     --accent: #1a1a1a;
 }
 
@@ -76,7 +77,7 @@ nav .container {
 
 /* Hero Section */
 .hero {
-    height: 90vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +126,7 @@ nav .container {
 
 /* Section Styles */
 section {
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 
 .section-title {
@@ -144,7 +145,7 @@ section {
     letter-spacing: 5px;
     text-align: center;
     color: var(--silver);
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
     opacity: 0.4;
     font-weight: 300;
     text-transform: uppercase;
@@ -154,8 +155,8 @@ section {
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 3rem;
-    margin-top: 5rem;
+    gap: 2rem;
+    margin-top: 3rem;
 }
 
 /* Card Styles */
@@ -337,8 +338,8 @@ section {
 /* Footer */
 footer {
     background-color: var(--black);
-    padding: 8rem 0 4rem;
-    margin-top: 10rem;
+    padding: 5rem 0 3rem;
+    margin-top: 5rem;
     border-top: 1px solid var(--dark-gray);
 }
 
@@ -355,7 +356,7 @@ footer {
     font-weight: 300;
     letter-spacing: 12px;
     color: var(--white);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .footer-text {
@@ -363,7 +364,7 @@ footer {
     letter-spacing: 4px;
     color: var(--silver);
     opacity: 0.4;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -372,7 +373,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .footer-links a {
